@@ -90,7 +90,7 @@
     {
       question:
         "3. " +
-        "Qual è il nome della celebre filosofa, matematica ed astronoma vissuta ad Alessandria d'Egitto tra IV e V secolo d.C",
+        "Qual è il nome della celebre filosofa, matematica ed astronoma vissuta ad Alessandria d'Egitto tra IV e V secolo d.C?",
       answers: {
         a: "Barsine",
         b: "Statira",
@@ -127,7 +127,8 @@
   buildQuiz();
 
   // Event listeners
-  // submitButton.addEventListener('click', showResults);
+
+  // submitButton.addEventListener('click', showResults); // mostra puteggio ottenuto
 
   submitButton.addEventListener("click", function () {
     //aggiungi showResults  e togli function per vedere il punteggio
